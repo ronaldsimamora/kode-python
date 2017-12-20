@@ -1,4 +1,4 @@
-# mendefinisikan kelas
+# mendefiniskan kelas
 class Kotak(object):
     def __init__(self, p, l, t):
         self.panjang = p
@@ -22,7 +22,7 @@ def main():
     kotak2 = Kotak(5, 3, 2)
 
     # menggunakan objek kedua
-    print("\nObjek kotak2")
+    print("Objek kotak2")
     print("panjang\t: ", kotak2.panjang)
     print("lebar\t: ", kotak2.lebar)
     print("tinggi\t: ", kotak2.tinggi)
